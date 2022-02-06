@@ -1,0 +1,154 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Greetings!"
+      ],
+      "responses": [
+        "Hey :D",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "chitchat",
+      "patterns": [
+        "How are you feeling?", 
+        "How’s it going?", 
+        "How are you?", 
+        "How’s life?", 
+        "Are you ok?",
+        "How are you doing?",
+        "How do you do?",
+        "How's everything?"
+      ],
+      "responses": [
+        "Well, thanks",
+        "Good, thanks",
+        "Not too bad"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", 
+        "See you later", 
+        "Goodbye",
+        "See you soon",
+        "I'm off",
+        "Talk to you later"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot"
+      ],
+      "responses": ["Happy to help!", "Any time!"]
+    }, 
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What can I buy?",
+        "Can I see the menu?",
+        "What do you have?",
+        "Are there any suggestions?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "items_price",
+      "patterns": [
+        "How much coffee?",
+        "How much tea?",
+        "Price for coffee?",
+        "Can I have a price?",
+        "Price?"
+      ],
+      "responses": [
+        "Coffee: 5$ and Tea: 4$"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "How can I pay?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Momo"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "Why is it so expensive?",
+        "Why is it so pricey?",
+        "What's the deal with the high price?",
+        "You are not answering my question.",
+        "You sucks!",
+        "Improve your services!",
+        "Youre services is too bad!"
+      ],
+      "responses": [
+        "I'm sorry! I will try better",
+        "Sorry to hear that!",
+        "Who cares! :D"
+      ]
+    },
+    {
+      "tag": "complement",
+      "patterns": [
+        "Good job!",
+        "Nice job!",
+        "You look great today!",
+        "Well done!",
+        "Great! Excellent!",
+        "Very good!",
+        "Very well!"
+      ],
+      "responses": [
+        "Good to hear that!",
+        "Wow! :D",
+        "Of course! I am the best"
+      ]
+    }
+  ]
+}

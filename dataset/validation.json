@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Greetings",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hey man"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "See you next time!", 
+        "Take care", 
+        "Goodnight"
+      ]
+    },
+    {
+      "tag": "chitchat",
+      "patterns": [
+        "How are you feeling?",
+        "How's life?",
+        "How's everythings?",
+        "How are you man?"
+      ]   
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thanks a lot!",
+        "I really appreciate it!",
+        "Many thanks!"
+      ]
+    }, 
+    {
+      "tag": "items",
+      "patterns": [
+        "What do you have?",
+        "What can I buy?",
+        "What do you sell?"
+      ]
+    },
+    {
+      "tag": "items_price",
+      "patterns": [
+        "Price?",
+        "Can I have a price?",
+        "How much does it cost?"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Can I pay with cash?",
+        "How can I pay?",
+        "Do you accept credit card?",
+        "Can I pay with cash?"
+      ]    
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "When I get the stuff?",
+        "When my stuff arrive?",
+        "How long does it takes?"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "You suck!",
+        "Your service is bad!",
+        "You need to improve your service!"
+      ]
+    },
+    {
+      "tag": "complement",
+      "patterns": [
+        "You're the best",
+        "You are execellent",
+        "Very good!"
+      ]
+    }
+  ]
+}
